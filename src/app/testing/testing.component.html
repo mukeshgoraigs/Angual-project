@@ -1,0 +1,19 @@
+<div class="row">
+  <h2>Basic Table</h2>
+  <table class="table">
+    <thead>
+    <tr>
+      <th>User Name</th>
+      <th>Password</th>
+      <th>confirm password</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let list of user">
+      <td>{{list.uname}}</td>
+      <td>{{list.password}}</td>
+      <td>{{list.cpassword}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
